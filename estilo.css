@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	white: 100%;
+	height: 60px;
+	background: darkred;
+}
+
+body{
+	background: black;
+}
+
+.menu{
+	position: relative;
+	height: 100px;
+	margin: auto;
+}
+
+.logo{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 100px;
+	padding-top: 9.45px;
+	left: 64.6825px;
+}
+
+.nav1{
+	position: relative;
+	left: 240px;
+	top: -100px;
+}
+
+nav{
+	position: relative;
+	width: 70%;
+	height: 60px;
+	background: black;
+	text-align: center;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+nav ul li a{
+	font-size: 25px;
+	padding-left: 15px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: marvel;
+}
+
+@font-face{
+	font-family: marvel;
+	src: url(fuente/Marvel-Regular.ttf);
+}
+
+section{
+	display: flex;
+	width: 1535px;
+	height: 500px;
+}
+
+section img{
+	width: 0;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+}
+
+section img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
