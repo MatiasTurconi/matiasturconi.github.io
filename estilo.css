@@ -82,3 +82,71 @@ section img:hover{
 	opacity: 1;
 	filter: contrast(120%);
 }
+
+.titulo{
+	font-size: 25px;
+	padding-left: 15px;
+	letter-spacing: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: marvel;
+}
+
+.fases img{
+	width: 170px;
+	height: 250px;
+	margin: 9px;
+}
+
+.titulo2{
+	font-size: 40px;
+	padding-left: 700px;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.titulo3{
+	font-size: 40px;
+	padding-left: 640px;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkgreen;
+	font-family: marvel;
+}
+
+.titulo4{
+	font-size: 40px;
+	padding-left: 690px;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.video{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	left: 490px;
+	border: 2px solid darkgrey;
+	margin-top: 10px;
+}
+
+.tamres{
+	width: 600px;
+	position: relative;
+	left: 490px;
+}
+
+.resumen{
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	letter-spacing: 1px;
+}
