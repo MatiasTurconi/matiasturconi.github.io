@@ -3,7 +3,7 @@
 	padding: 0;
 }
 header{
-	white: 100%;
+	width: 100%;
 	height: 60px;
 	background: darkred;
 }
@@ -64,7 +64,7 @@ nav ul li a{
 
 section{
 	display: flex;
-	width: 1535px;
+	width: 100%;
 	height: 500px;
 }
 
@@ -101,17 +101,17 @@ section img:hover{
 
 .titulo2{
 	font-size: 40px;
-	padding-left: 700px;
+	text-align: center;
 	letter-spacing: 4px;
 	text-decoration: underline;
 	text-transform: uppercase;
-	color: darkred;
+	color: gold;
 	font-family: marvel;
 }
 
 .titulo3{
 	font-size: 40px;
-	padding-left: 640px;
+	text-align: center;
 	letter-spacing: 4px;
 	text-decoration: underline;
 	text-transform: uppercase;
@@ -121,11 +121,205 @@ section img:hover{
 
 .titulo4{
 	font-size: 40px;
-	padding-left: 690px;
+	text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: gold;
+	font-family: marvel;
+}
+
+.titulo5{
+	font-size: 40px;
+    text-align: center;
 	letter-spacing: 4px;
 	text-decoration: underline;
 	text-transform: uppercase;
 	color: darkred;
+	font-family: marvel;
+}
+
+.titulo6{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkblue;
+	font-family: marvel;
+}
+
+.titulo7{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: white;
+	font-family: marvel;
+}
+
+.titulo8{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: gold;
+	font-family: marvel;
+}
+
+.titulo9{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.titulo10{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkblue;
+	font-family: marvel;
+}
+
+.titulo11{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #FF9E00;
+	font-family: marvel;
+}
+
+.titulo12{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.titulo13{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.titulo14{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkblue;
+	font-family: marvel;
+}
+
+.titulo15{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.titulo16{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkblue;
+	text-shadow: 1px 0 0 red,-1px 0 0 red,0 1px 0 red,0 -1px 0 red;
+	font-family: marvel;
+}
+
+.titulo17{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkred;
+	font-family: marvel;
+}
+
+.titulo18{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: black;
+	text-shadow: 1px 0 0 white,-1px 0 0 white,0 1px 0 white,0 -1px 0 white;
+	font-family: marvel;
+}
+
+.titulo19{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: #DCD900;
+	font-family: marvel;
+}
+
+.titulo20{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: red;
+	font-family: marvel;
+}
+
+.titulo21{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: darkblue;
+	font-family: marvel;
+}
+
+.titulo23{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: blue;
+	text-shadow: 1px 0 0 white,-1px 0 0 white;,0 1px 0 white;,0 -1px 0 white;;
+	font-family: marvel;
+}
+
+.titulo24{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: blue;
+	text-shadow: 1px 0 0 white,-1px 0 0 white;,0 1px 0 white;,0 -1px 0 white;;
 	font-family: marvel;
 }
 
