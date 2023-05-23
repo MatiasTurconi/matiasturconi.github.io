@@ -6,6 +6,7 @@ header{
 	width: 100%;
 	height: 60px;
 	background: darkred;
+	position: fixed;
 }
 
 body{
@@ -25,6 +26,15 @@ body{
 	height: 100px;
 	padding-top: 9.45px;
 	left: 64.6825px;
+}
+
+.buscador{
+	position: absolute;
+	display: block;
+	left: 1340px;
+	bottom: 60px;
+	right: 20px;
+	padding: 1px;
 }
 
 .nav1{
@@ -65,7 +75,8 @@ nav ul li a{
 section{
 	display: flex;
 	width: 100%;
-	height: 500px;
+	height: 600px;
+	padding-top: 60px;
 }
 
 section img{
@@ -81,6 +92,10 @@ section img:hover{
 	width: 300px;
 	opacity: 1;
 	filter: contrast(120%);
+}
+
+.div1{
+	padding-top: 100px;
 }
 
 .titulo{
@@ -116,6 +131,7 @@ section img:hover{
 	text-decoration: underline;
 	text-transform: uppercase;
 	color: darkgreen;
+	text-shadow: 1px 0 0 darkviolet,-1px 0 0 darkviolet,0 1px 0 darkviolet,0 -1px 0 darkviolet;
 	font-family: marvel;
 }
 
@@ -308,7 +324,7 @@ section img:hover{
 	text-decoration: underline;
 	text-transform: uppercase;
 	color: blue;
-	text-shadow: 1px 0 0 white,-1px 0 0 white;,0 1px 0 white;,0 -1px 0 white;;
+	text-shadow: 1px 0 0 white,-1px 0 0 white,0 1px 0 white,0 -1px 0 white;
 	font-family: marvel;
 }
 
@@ -319,7 +335,49 @@ section img:hover{
 	text-decoration: underline;
 	text-transform: uppercase;
 	color: blue;
-	text-shadow: 1px 0 0 white,-1px 0 0 white;,0 1px 0 white;,0 -1px 0 white;;
+	text-shadow: 1px 0 0 white,-1px 0 0 white,0 1px 0 white,0 -1px 0 white;
+	font-family: marvel;
+}
+
+.titulo25{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline red;
+	text-transform: uppercase;
+	color: silver;
+	text-shadow: 1px 0 0 red,-1px 0 0 red,0 1px 0 red,0 -1px 0 red;
+	font-family: marvel;
+}
+
+.titulo26{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: silver;
+	font-family: marvel;
+}
+
+.titulo27{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: gold;
+	font-family: marvel;
+}
+
+.titulo28{
+	font-size: 40px;
+    text-align: center;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: yellow;
+	text-shadow: 2px 0 0 red,-2px 0 0 red,0 2px 0 red,0 -2px 0 red;
 	font-family: marvel;
 }
 
