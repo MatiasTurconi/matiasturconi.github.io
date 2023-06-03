@@ -523,14 +523,17 @@ form{
 	border-radius: 15px;
 	margin: 5px;
 	margin-left: 380px;
-	box-shadow: 1px 5px 30px red;
-	background-color: white;
+	color: white;
 	list-style-type: none;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 1px;
 }
 
 .crsBotonRetroceder:hover{
 		cursor: pointer;
 		background-color: red;
+		box-shadow: 1px 5px 30px red;
 }
 
 .crsBotonAvanzar{
@@ -539,12 +542,15 @@ form{
 	border-radius: 15px;
 	margin: 5px;
 	margin-left: 15px;	
-	box-shadow: 1px 5px 30px red;
-	background-color: white;
+	color: white;
 	list-style-type: none;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 1px;
 }
 
 .crsBotonAvanzar:hover{
 		cursor: pointer;
 		background-color: red;
+		box-shadow: 1px 5px 30px red;
 }
