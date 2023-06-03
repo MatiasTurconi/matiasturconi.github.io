@@ -3,13 +3,13 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
-	<script src="js/jquery.dataTables.min.js"></script>
-	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/javaScript.js"></script>
     <meta charset="utf-8">
 	<title>MARVEL</title>
 </head>
 <body>
 	<header>
+		    <!-- ------------------MENU------------------ -->
 		<div class="menu">
 			<div class="logo">
 				<img src="marvel3.jpg">
@@ -21,23 +21,55 @@
 					<li><a href="series.html">Series<a/></li>
 				</ul>
 			</nav>
-			<li><input type="search" placeholder="Buscar..." class="buscador"></li>
+			<!-- ------------------CARRUSEL------------------ -->
+			<div class="ubicacion">
+			 <div class="carrusel">
+				<div class="grande">
+				    <img src="crs-ironman.jpg" alt="imagen 1" class="crs-img">
+				    <img src="crs-spiderman.jpg" alt="imagen 2" class="crs-img">
+				    <img src="crs-cap.jpg" alt="imagen 3" class="crs-img">
+				    <img src="crs-thor.jpg" alt="imagen 4" class="crs-img">
+				</div>
+
+				<ul class="crs-botones">
+					<li class="crsBotonRetroceder" id="btn-retroceder"></li>
+					<li class="crsBotonAvanzar" id="btn-avanzar"></li>
+				</ul>
+			 </div>
 			</div>
+			<!-- ------------------FORMULARIO------------------ -->
+			<a href="#inc-sesion" class="sec">iniciar sesion</a>
+
+			    <div class="contenedor" id="inc-sesion">
+			    	<h4 class="f_titulo">iniciar sesion</h4>	
+			           <div class="contenido">
+			           	<form onsubmit="return validar()" id="f_contacto">
+			           		<input for="f_nombre" class="controls" id="f_nombre" placeholder="Ingrese su Nombre" />
+			           		<input for="f_apellido" class="controls" id="f_apellido" placeholder="Ingrese su Apellido" />
+			           		<input for="f_email" class="controls" id="f_email" placeholder="Ingrese su Email" />
+			           		<button class="f-boton" type="submit">Enviar</button>
+			           		<div id="errores"></div>
+			           	</form>
+			           	<div id="mensajes"></div>
+			           </div>
+			    </div>
+            </div>
 	</header>
+	        <!-- ------------------IMAGENES------------------ -->
 		<div>
 			<section>
+				<img src="vision.jpg">
 				<img src="brujaescarlata.jpg">
-				<img src="cap.jpg">
 				<img src="hulk.jpg">
 				<img src="blackwidow.jpg">
+				<img src="hawkeye.jpg">
+				<img src="cap.jpg">
 				<img src="ironman.jpg">
 				<img src="doctorstrange.jpg">
-				<img src="hawkeye.jpg">
 				<img src="thor.jpg">
 				<img src="loki.jpg">
 				<img src="spiderman.jpg">
 				<img src="starlord.jpg">
-				<img src="vision.jpg">
 				<img src="falcon.jpg">
 			</section>
 		</div>

@@ -6,11 +6,15 @@ header{
 	width: 100%;
 	height: 60px;
 	background: darkred;
-	position: fixed;
+}
+
+html{
+	scroll-behavior: smooth;
 }
 
 body{
 	background: black;
+	overflow-y: auto;
 }
 
 .menu{
@@ -28,15 +32,6 @@ body{
 	left: 64.6825px;
 }
 
-.buscador{
-	position: absolute;
-	display: block;
-	left: 1340px;
-	bottom: 60px;
-	right: 20px;
-	padding: 1px;
-}
-
 .nav1{
 	position: relative;
 	left: 240px;
@@ -49,7 +44,6 @@ nav{
 	height: 60px;
 	background: black;
 	text-align: center;
-	
 }
 
 nav ul li {
@@ -67,6 +61,10 @@ nav ul li a{
 	font-family: marvel;
 }
 
+nav ul li a:hover{
+	color: red;
+}
+
 @font-face{
 	font-family: marvel;
 	src: url(fuente/Marvel-Regular.ttf);
@@ -76,7 +74,6 @@ section{
 	display: flex;
 	width: 100%;
 	height: 600px;
-	padding-top: 60px;
 }
 
 section img{
@@ -89,7 +86,7 @@ section img{
 
 section img:hover{
 	cursor: crosshair;
-	width: 300px;
+	width: 350px;
 	opacity: 1;
 	filter: contrast(120%);
 }
@@ -111,7 +108,7 @@ section img:hover{
 .fases img{
 	width: 170px;
 	height: 250px;
-	margin: 9px;
+	margin: 8px;
 }
 
 .titulo2{
@@ -261,8 +258,8 @@ section img:hover{
 	letter-spacing: 4px;
 	text-decoration: underline;
 	text-transform: uppercase;
-	color: darkblue;
-	text-shadow: 1px 0 0 red,-1px 0 0 red,0 1px 0 red,0 -1px 0 red;
+	color: darkred;
+	text-shadow: 2px 0 0 darkblue,-1px 0 0 darkblue,0 1px darkblue,0 -1px 0 darkblue;
 	font-family: marvel;
 }
 
@@ -303,7 +300,7 @@ section img:hover{
 	letter-spacing: 4px;
 	text-decoration: underline;
 	text-transform: uppercase;
-	color: red;
+	color: darkred;
 	font-family: marvel;
 }
 
@@ -382,8 +379,8 @@ section img:hover{
 }
 
 .video{
-	width: 600px;
-	height: 600px;
+	width: 550px;
+	height: 300px;
 	position: relative;
 	left: 490px;
 	border: 2px solid darkgrey;
@@ -401,4 +398,153 @@ section img:hover{
 	font-size: 20px;
 	font-family: arial;
 	letter-spacing: 1px;
+}
+
+.sec{
+	font-size: 25px;
+	padding-left: 15px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: marvel;
+	position: absolute;
+	display: block;
+	left: 1320px;
+	bottom: 53px;
+	right: 25px;
+	text-shadow: 1px 0 0 black,-1px 0 0 black,0 1px 0 black,0 -1px 0 black;
+}
+
+.lbl-modal:hover{
+	cursor: pointer;
+}
+
+.contenedor{
+	position: relative;
+	padding: 20px;
+	padding-bottom: 40px;
+	margin: auto;
+	margin-top: 700px;
+	width: 600px;
+	height: 490px;
+	background: #24303c;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 1px 1px 40px red;
+}
+
+.f_titulo{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls{
+	background: #24303c;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #1f53c5;
+	font-size: 17px;
+	color: white;
+}
+
+.f-boton{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 10px;
+	color: white;
+	margin: 10px 0;
+	font-size: 17px;
+}
+
+.f-boton:hover{
+	cursor: pointer;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 30px;
+	margin: 10px;
+}
+
+
+#errores{
+	border: 1px solid red;
+	padding: 5px;
+	display: none;
+}
+
+.ubicacion{
+	position: relative;
+	top: 600px;
+}
+
+.carrusel{
+	width: 1000px;
+	padding: 10px;
+	padding-left: 50px;
+	margin: auto;
+	overflow-x: hidden;
+}
+
+.grande{
+	width: 400%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	transition: all 1s ease-in-out;
+	transform: translateX(0%);
+}
+
+.carrusel img{
+	width: calc(100% / 4 - 50px);
+}
+
+.crs-botones{
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.crsBotonRetroceder{
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	margin: 5px;
+	margin-left: 380px;
+	box-shadow: 1px 5px 30px red;
+	background-color: white;
+	list-style-type: none;
+}
+
+.crsBotonRetroceder:hover{
+		cursor: pointer;
+		background-color: red;
+}
+
+.crsBotonAvanzar{
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	margin: 5px;
+	margin-left: 15px;	
+	box-shadow: 1px 5px 30px red;
+	background-color: white;
+	list-style-type: none;
+}
+
+.crsBotonAvanzar:hover{
+		cursor: pointer;
+		background-color: red;
 }
